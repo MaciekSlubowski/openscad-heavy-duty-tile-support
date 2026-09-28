@@ -32,7 +32,7 @@ This bracket features a massive solid wedge design combined with minimal mountin
 * **Supports:** No supports are required.
 
 ## Assembly
-Mount the bracket to the wall using flat-head screws (up to 6mm diameter) and wide flat washers. Ensure you use appropriate wall anchors for your wall type (e.g., concrete, drywall, or brick) before sliding the tile into the top recess.
+Mount the bracket to the wall using flat-head screws (up to 6mm diameter) and wide flat washers. Ensure you use appropriate wall anchors for your wall type (e.g. drywall, or brick) before sliding the tile into the top recess.
 
 ## How to Print & Install
 
