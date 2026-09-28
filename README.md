@@ -1,11 +1,23 @@
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/c01cd608-4c20-4aca-9c65-c1bf5917dde0" width="19%" alt="OpenSCAD Model" />
+  <img src="https://github.com/user-attachments/assets/6c75ba1b-d647-4e2e-b5f6-e80e697833bd" width="19%" alt="Single printed bracket" />
+  <img src="https://github.com/user-attachments/assets/d95c5513-eece-4b6f-870f-f3076b8362e1" width="19%" alt="Three printed brackets" />
+  <img src="https://github.com/user-attachments/assets/232edd9c-d4bc-4744-949f-9bcbcd6a26ab" width="19%" alt="Empty mounted shelf" />
+  <img src="https://github.com/user-attachments/assets/ea738a94-1874-42a6-96e7-51e2ee4dc5c7" width="19%" alt="Load test with water jugs" />
+  <br>
+  <i>From left to right: OpenSCAD model, freshly printed PETG brackets, empty wall-mounted shelf, and extreme load testing with three large water jugs (~60kg).</i>
+</div>
+
+<br>
+
 A heavy-duty, parametric 3D-printable wall bracket designed in OpenSCAD to repurpose standard floor tiles into sturdy wall shelves.
 
-🎓 About the Project
+## 🎓 About the Project
 
 This project was developed by Maciej Ślubowski to solve a demanding structural challenge: safely supporting up to 60 kg of water on a fragile, ceramic tile shelf. 
 The bracket was prototyped and tested on a modified Creality Ender-3 V2 (equipped with a Direct Drive extruder and Satsana fan duct), leveraging parametric OpenSCAD programming to allow easy adjustments for different tile dimensions and material shrinkage clearances.
 
-✨ Key Features
+## ✨ Key Features
 
 * **Extreme Durability Geometry:** A massive solid wedge design engineered to support the entire depth of the tile, transferring continuous vertical loads effectively to the wall.
 * **Parametric & Customizable:** Fully built in OpenSCAD. The `.scad` file allows you to instantly adjust tile width, thickness, and tolerances without manual 3D modeling.
@@ -13,7 +25,7 @@ The bracket was prototyped and tested on a modified Creality Ender-3 V2 (equippe
 * **Smart Infill Utilization:** Relies on a 3D spatial infill pattern (Cubic) to evenly distribute downward and lateral stress vectors across all three axes (X, Y, Z).
 * **Print-Ready Orientation:** The OpenSCAD script pre-rotates the model 90 degrees, ensuring layer lines run perpendicular to the primary load vectors for maximum mechanical shear strength.
 
-🚀 How to Print & Install
+## 🚀 How to Print & Install
 
 Since the model is fully parametric, you can generate an STL for your exact tile dimensions directly in OpenSCAD.
 
@@ -28,7 +40,7 @@ Since the model is fully parametric, you can generate an STL for your exact tile
 **Assembly:**
 Mount the bracket to the wall using flat-head screws (up to 6mm diameter) and wide flat washers. Ensure you use heavy-duty wall anchors appropriate for your wall type (concrete/brick) before sliding the tile into the top recess.
 
-📄 License & Credits
+## 📄 License & Credits
 
 This project is open-source and provided strictly for personal, educational, and non-commercial purposes. You are free to explore, modify, and 3D print the bracket for your own needs.
 
