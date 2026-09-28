@@ -34,7 +34,7 @@ This bracket features a massive solid wedge design combined with minimal mountin
 ## Assembly
 Mount the bracket to the wall using flat-head screws (up to 6mm diameter) and wide flat washers. Ensure you use appropriate wall anchors for your wall type (e.g., concrete, drywall, or brick) before sliding the tile into the top recess.
 
-## 🚀 How to Print & Install
+## How to Print & Install
 
 Since the model is fully parametric, you can generate an STL for your exact tile dimensions directly in OpenSCAD.
 
