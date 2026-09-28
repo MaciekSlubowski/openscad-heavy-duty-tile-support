@@ -47,7 +47,7 @@ Since the model is fully parametric, you can generate an STL for your exact tile
 * **Supports:** None required.
 
 **Assembly:**
-Mount the bracket to the wall using flat-head screws (up to 6mm diameter) and wide flat washers. Ensure you use heavy-duty wall anchors appropriate for your wall type (concrete/brick) before sliding the tile into the top recess.
+Mount the bracket to the wall using flat-head screws (up to 6mm diameter) and wide flat washers. Ensure you use heavy-duty wall anchors appropriate for your wall type (wood, brick) before sliding the tile into the top recess.
 
 ## 📄 License & Credits
 
