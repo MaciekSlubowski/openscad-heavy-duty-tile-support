@@ -8,22 +8,31 @@
   <i>From left to right: OpenSCAD model, freshly printed PETG brackets, empty wall-mounted shelf, and extreme load testing with three large water jugs (~60kg).</i>
 </div>
 
-<br>
+# Floor Tile Shelf Bracket
 
-A heavy-duty, parametric 3D-printable wall bracket designed in OpenSCAD to repurpose standard floor tiles into sturdy wall shelves.
+A heavy-duty, parametric 3D-printable wall bracket designed in OpenSCAD to repurpose standard floor tiles into sturdy wall shelves. 
 
-## 🎓 About the Project
+## Overview
+This bracket features a massive solid wedge design combined with minimal mounting tabs, ensuring maximum load-bearing capacity while maintaining a clean look. The OpenSCAD file is fully parametric, allowing you to easily adjust tile width, thickness, and clearance.
 
-This project was developed by Maciej Ślubowski to solve a demanding structural challenge: safely supporting up to 60 kg of water on a fragile, ceramic tile shelf. 
-The bracket was prototyped and tested on a modified Creality Ender-3 V2 (equipped with a Direct Drive extruder and Satsana fan duct), leveraging parametric OpenSCAD programming to allow easy adjustments for different tile dimensions and material shrinkage clearances.
+## Key Features
+* **Heavy-Duty Support:** The solid wedge structure supports the entire depth of the tile.
+* **Front Retaining Lip:** Features a secure front lip to prevent the tile from sliding off.
+* **Parametric Design:** Easily customizable variables in the `.scad` file to fit different tile dimensions.
+* **Ready to Print:** The model is pre-rotated 90 degrees in the code to print flat on its side, ensuring the layer lines run perpendicular to the load for maximum mechanical strength.
 
-## ✨ Key Features
+## Dimensions & Compatibility
+* **Target Tile:** Designed for standard tiles with a nominal width of 195 mm and 10 mm thickness.
+* **Tolerances:** Includes a built-in 2.5 mm shrinkage clearance.
+* **Build Volume:** The generated bracket measures approximately 227.5 x 213 mm. It is perfectly optimized to fit on 235x235 mm print beds (such as the Creality Ender-3 V2).
 
-* **Extreme Durability Geometry:** A massive solid wedge design engineered to support the entire depth of the tile, transferring continuous vertical loads effectively to the wall.
-* **Parametric & Customizable:** Fully built in OpenSCAD. The `.scad` file allows you to instantly adjust tile width, thickness, and tolerances without manual 3D modeling.
-* **Heavy-Duty Print Optimization:** Specifically designed to be printed with extreme slicer settings (10 perimeters, 10 top/bottom layers) to turn the mounting tabs into virtually solid plastic, preventing crushing under heavy hex bolts.
-* **Smart Infill Utilization:** Relies on a 3D spatial infill pattern (Cubic) to evenly distribute downward and lateral stress vectors across all three axes (X, Y, Z).
-* **Print-Ready Orientation:** The OpenSCAD script pre-rotates the model 90 degrees, ensuring layer lines run perpendicular to the primary load vectors for maximum mechanical shear strength.
+## Printing Recommendations
+* **Material:** PETG is highly recommended due to its superior impact resistance and lower tendency to creep under continuous heavy loads compared to PLA.
+* **Slicer Settings:** When setting up your profile in Ultimaker Cura or similar slicers, use at least **4-5 perimeters (walls)** and a strong structural infill (e.g., 30-40% Cubic or Gyroid).
+* **Supports:** No supports are required.
+
+## Assembly
+Mount the bracket to the wall using flat-head screws (up to 6mm diameter) and wide flat washers. Ensure you use appropriate wall anchors for your wall type (e.g., concrete, drywall, or brick) before sliding the tile into the top recess.
 
 ## 🚀 How to Print & Install
 
